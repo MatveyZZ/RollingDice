@@ -1,34 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!-- Объявляет тип документа как HTML5 -->
+<html lang="en"> <!-- Открывает элемент html и устанавливает язык документа на английский -->
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Roll Dice App | AsmrProg</title>
+    <meta charset="UTF-8"> <!-- Устанавливает кодировку документа на UTF-8 для поддержки различных символов -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Указывает Internet Explorer использовать последнюю версию рендеринга -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Устанавливает параметры для адаптивного дизайна на мобильных устройствах -->
+    <link rel="stylesheet" href="style.css"> <!-- Подключает внешний файл стилей (CSS) для оформления страницы -->
+    <title>Roll Dice App | AsmrProg</title> <!-- Устанавливает заголовок страницы, который отображается на вкладке браузера -->
 </head>
+
 <body>
     
-    <div class="container">
-        <div class="dice">
-            <div class="face front"></div>
-            <div class="face back"></div>
-            <div class="face top"></div>
-            <div class="face bottom"></div>
-            <div class="face right"></div>
-            <div class="face left"></div>
+    <div class="container"> <!-- Создает контейнер для всех элементов приложения с кубиком -->
+        <div class="dice"> <!-- Создает элемент кубика -->
+            <div class="face front"></div> <!-- Создает переднюю грань кубика -->
+            <div class="face back"></div> <!-- Создает заднюю грань кубика -->
+            <div class="face top"></div> <!-- Создает верхнюю грань кубика -->
+            <div class="face bottom"></div> <!-- Создает нижнюю грань кубика -->
+            <div class="face right"></div> <!-- Создает правую грань кубика -->
+            <div class="face left"></div> <!-- Создает левую грань кубика -->
         </div>
 
-        <button class="roll">
-            Roll Dice
+        <button class="roll"> <!-- Создает кнопку для броска кубика -->
+            Roll Dice <!-- Текст на кнопке -->
         </button>
 
     </div>
+    
+    <script src="index.js"></script> <!-- Подключает внешний файл JavaScript для добавления функциональности на страницу -->
 
-
-
-
-
-    <script src="index.js"></script>
 </body>
 </html>
